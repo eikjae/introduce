@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; /*수평 정렬*/
+  align-items: center;
+  justify-content: center;
+}
+.circle{
+  width: 110px;
+  height: 110px;
+  background: #0054FF;
+  margin: 50px;
+  border-radius: 50%;
+
+  text-align:center;
+  line-height:105px;
+
+  transition: all 0.3s;
+
+}
+
+.one-in{
+  width: 110px;
+  height: 110px;
+  background: #0054FF;
+  margin: 50px;
+  border-radius: 50%;
+
+  text-align:center;
+  line-height:105px;
+
+  margin:50px auto;
+
+}
+
+.circle:hover{
+    transform: scale(1.3);
+}
+
+
+.text {
+    color: white;
+    font-weight:
+}
+
+
+.subcontainer{
+    
+    height: 100vh;
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row; /*수평 정렬*/
+    justify-content: center;
+  }
+
+
+  a { text-decoration:none } 
+
+  .centercontainer {
+    height: 100vh;
+    display: block;
+    border-style: solid;
+  }
+
+  .partition-one {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(212, 236, 253);
+    /* display: inline-block;*/
+    float: left;
+    
+    text-align: center;
+    line-height: 80px;
+  }
+
+  .partition-two {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(91, 224, 162);
+    /* display: inline-block;*/
+    float: left;
+    
+    text-align: center;
+    line-height: 80px;
+  }
+
+  .partition-three {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(91, 171, 224);
+    /* display: inline-block;*/
+    float: left;
+    
+    text-align: center;
+    line-height: 80px;
+  }
+
+}
