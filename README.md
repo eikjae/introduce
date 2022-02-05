@@ -1,2 +1,2 @@
-# 자기소개 페이지
+### 저를 소개합니다!
 https://eikjae.github.io/introduce/
